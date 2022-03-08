@@ -4,6 +4,7 @@
     <SectionBlack/>
     <SectionBlue/>
     <Footer/>
+    <FooterNav/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Header from "./components/Header.vue"
 import SectionBlack from "./components/SectionBlack.vue"
 import SectionBlue from "./components/SectionBlue.vue"
 import Footer from "./components/Footer.vue"
+import FooterNav from "./components/FooterNav.vue"
 
 export default {
   name: 'App',
@@ -21,6 +23,7 @@ export default {
     SectionBlack,
     SectionBlue,
     Footer,
+    FooterNav,
   }
 }
 </script>
