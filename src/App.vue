@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <SectionBlack/>
+    <SectionBlue/>
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 
 import Header from "./components/Header.vue"
 import SectionBlack from "./components/SectionBlack.vue"
+import SectionBlue from "./components/SectionBlue.vue"
 
 export default {
   name: 'App',
   components: {
     Header,
     SectionBlack,
+    SectionBlue,
   }
 }
 </script>
