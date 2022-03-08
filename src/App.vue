@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <Header/>
+    <SectionBlack/>
   </div>
 </template>
 
 <script>
 
 import Header from "./components/Header.vue"
+import SectionBlack from "./components/SectionBlack.vue"
 
 export default {
   name: 'App',
   components: {
     Header,
+    SectionBlack,
   }
 }
 </script>
