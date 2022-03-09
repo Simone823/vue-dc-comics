@@ -83,6 +83,12 @@ nav {
             color: white;
             border: 2px solid #0282f9;
             cursor: pointer;
+
+            &:hover {
+                background-color: #0282f9;
+                border: 2px solid white;
+                transition: all 280ms linear;
+            }
         }
 
         .social {
@@ -100,6 +106,11 @@ nav {
                 list-style: none;
                 display: flex;
                 gap: 15px;
+
+                img:hover {
+                    transform: scale(1.15);
+                    transition: all 200ms linear;
+                }
             }
         }
     }
