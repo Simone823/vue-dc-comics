@@ -93,9 +93,11 @@ export default {
 
             .logo {
                 width: 45px;
+                height: 45px;
 
                 img{
                     width: 100%;
+                    height: 100%;
                     display: block;
                     object-fit: contain;
                 }
