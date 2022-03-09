@@ -271,6 +271,12 @@ footer {
                     a {
                         text-decoration: none;
                         color: #aaa;
+
+                        &:hover {
+                            color: white;
+                            text-decoration: underline;
+                            transition: all 180ms linear;
+                        }
                     }
                 }
             }
@@ -295,6 +301,12 @@ footer {
                     a {
                         text-decoration: none;
                         color: #aaa;
+
+                        &:hover {
+                            color: white;
+                            text-decoration: underline;
+                            transition: all 180ms linear;
+                        }
                     }
                 }
             }
@@ -319,6 +331,12 @@ footer {
                     a {
                         text-decoration: none;
                         color: #aaa;
+
+                        &:hover {
+                            color: white;
+                            text-decoration: underline;
+                            transition: all 180ms linear;
+                        }
                     }
                 }
             }
