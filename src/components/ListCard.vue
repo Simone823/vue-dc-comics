@@ -57,6 +57,25 @@ export default {
         color: #aaa;
         text-decoration: line-through;
     }
+
+}
+
+@media screen and (max-width: 720px) {
+    .card {
+        flex-basis: calc(100% / 4 - 20px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        flex-basis: calc(100% / 3 - 20px);
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .card {
+        flex-basis: calc(100% / 1 - 20px);
+    }
 }
 
 </style>
