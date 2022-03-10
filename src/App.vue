@@ -12,7 +12,6 @@
 
 import Header from "./components/Header.vue"
 import SectionBlack from "./components/SectionBlack.vue"
-import SectionBlue from "./components/SectionBlue.vue"
 import Footer from "./components/Footer.vue"
 import FooterNav from "./components/FooterNav.vue"
 
@@ -21,7 +20,6 @@ export default {
   components: {
     Header,
     SectionBlack,
-    SectionBlue,
     Footer,
     FooterNav,
   }

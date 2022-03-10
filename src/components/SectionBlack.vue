@@ -24,16 +24,20 @@
                 <button>Load More</button>
             </div>
         </section>
+
+        <SectionBlue/>
     </main>
 </template>
 
 
 <script>
 import ListCard from "./ListCard.vue"
+import SectionBlue from "./SectionBlue.vue"
 
 export default {
     name: "SectionBlack", 
     components: {
+        SectionBlue,
         ListCard,
     },
 
