@@ -108,6 +108,10 @@ export default {
                 color: white;
                 text-transform: uppercase;
                 font-size: 16px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }
